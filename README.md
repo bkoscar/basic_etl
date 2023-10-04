@@ -12,16 +12,18 @@ You can run the Gen_Data API easily using Docker Compose. Make sure you have Doc
 
 1. Clone this repository to your local machine.
 
+```
 git clone https://github.com/bkoscar/basic_etl.git
+```
 
 2. Navigate to the repository directory.
-
+```
 cd Gen_Data
-
+```
 3. Build the Docker image and run the application with Docker Compose.
-
+```
 docker-compose up --build
-
+```
 This will create and run a Docker container hosting the Gen_Data API and make it accessible in your web browser.
 
 ## Usage
